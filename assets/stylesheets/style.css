@@ -95,12 +95,14 @@ label{
   background-color: #ddd;
   padding: 4px 11px;
   font-family: "Muli";
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
+  border-style: solid;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-  background-color: #bbb;
+  background-color: red;
+  background-color: #840202;
 }
 
 
